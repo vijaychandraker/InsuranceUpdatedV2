@@ -16,55 +16,49 @@
         /* CSS spinner */
         .spinner { width: 48px; height: 48px; border: 5px solid rgba(0,0,0,0.1); border-top-color: #4CAF50; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto; }
         @keyframes spin { to { transform: rotate(360deg); } }
-/* Scrollable table container */
-.table-container {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-}
-
-/* Scroll area */
-.table-scroll {
-    min-width: 1000px;
-}
-
-/* Table styling */
-.table th, .table td {
-    white-space: nowrap;
-    text-align: center;
-    padding: 8px;
-}
-
-/* Sticky header */
-.table thead th {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: #4CAF50;
-    color: white;
-    text-align: center;
-}
-
-/* Improve mobile view */
-@media (max-width: 768px) {
-    .table-scroll {
-        min-width: 1200px;
-    }
-
-    .table th, .table td {
-        font-size: 12px;
-        padding: 6px 8px;
-    }
-
-    .table thead th {
-        font-size: 13px;
-    }
-}
-
-
     </style>
+    <style>
+    /* Transparent Glass Effect */
+    .glass-card {
+        background: rgba(255, 255, 255, 0.15); /* transparent white */
+        backdrop-filter: blur(10px); /* frosted glass blur */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .glass-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-body h3,
+    .glass-body p {
+        color: #fff; /* white text for readability */
+        text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    }
+
+    .glass-btn {
+        background: rgba(255, 255, 255, 0.25);
+        color: #fff;
+        border-radius: 0 0 15px 15px;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        transition: background 0.3s ease;
+    }
+
+    .glass-btn:hover {
+        background: rgba(255, 255, 255, 0.4);
+        color: #000;
+    }
+
+    .small-box .icon i {
+        color: rgba(255,255,255,0.8);
+    }
+</style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -134,20 +128,22 @@
             <div class="row">
                 <div class="col-lg-6 sm-12">
                     <!-- Company Wise -->
-                    <div class="card card-danger">
-                        <div class="card-header d-flex justify-content-between align-items-center">
-                            <h3 class="card-title mb-0">Company Wise Policy</h3>
-                            <div class="ml-auto">
-                                <asp:LinkButton ID="btnExportExcel" runat="server" OnClick="btnExportExcel_Click"><i class="fas fa-file-excel"></i></asp:LinkButton>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <canvas id="companyChart" style="min-height:250px;height:250px;max-height:250px;max-width:100%;"></canvas>
-                        </div>
-                    </div>
+                    <div class="card card-danger glass-card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h3 class="card-title mb-0">Company Wise Policy</h3>
+        <div class="ml-auto">
+            <asp:LinkButton ID="btnExportExcel" runat="server" OnClick="btnExportExcel_Click">
+                <i class="fas fa-file-excel"></i>
+            </asp:LinkButton>
+        </div>
+    </div>
+    <div class="card-body">
+        <canvas id="companyChart" style="min-height:250px;height:250px;max-height:250px;max-width:100%;"></canvas>
+    </div>
+</div>
 
                     <!-- Category Wise Company -->
-                    <div class="card card-info">
+                    <div class="card card-info glass-card">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <h3 class="card-title mb-0">Category Wise Company</h3>
                             <div class="ml-auto">
@@ -162,7 +158,7 @@
 
                 <!-- Category Wise Policy -->
                 <div class="col-lg-6 sm-12">
-                    <div class="card card-warning">
+                    <div class="card card-warning glass-card">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <h3 class="card-title">Category Wise Policy</h3>
                             <div class="ml-auto">
@@ -217,7 +213,7 @@
             <!-- Policy Holders Grid -->
             <div class="row">
                 <div class="col-lg-12 sm-12">
-                    <div class="card card-danger">
+                    <div class="card card-danger glass-card">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <h3 class="card-title">Details Policy Holders</h3>
                         </div>
@@ -235,14 +231,12 @@
                 </asp:LinkButton>
             </div>
 
-            <div class="table-container">
-    <div class="table-scroll">
-        <table class="table table-bordered table-striped sticky-header">
             <asp:GridView ID="gvdashboard" runat="server" AutoGenerateColumns="False"
                 DataKeyNames="PolicyID"
-                CssClass="table-inner"
+                CssClass="table table-bordered table-striped"
                 AllowPaging="True" PageSize="5"
                 PagerSettings-Mode="NumericFirstLast"
+                AllowCustomPaging="True"
                 PagerSettings-Position="Bottom"
                 PagerSettings-PageButtonCount="5"
                 PagerStyle-CssClass="grid-pager"
@@ -271,10 +265,6 @@
                     <asp:BoundField DataField="CategoryName" HeaderText="Category" />
                 </Columns>
             </asp:GridView>
-        </table>
-    </div>
-</div>
-
 
             <asp:Label ID="lblMessage" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
         </div>

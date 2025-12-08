@@ -2,7 +2,6 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dbord.helpers;
@@ -17,18 +16,12 @@ namespace Dbord.View.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Prevent browser from caching POST data
-            Response.Cache.SetCacheability(System.Web.HttpCacheability.NoCache);
-            Response.Cache.SetNoStore();
-            Response.Cache.SetExpires(DateTime.UtcNow.AddHours(-1));
-
             if (!IsPostBack)
             {
-                string searchText = Session["SearchText"] as string ?? txtSearch.Text.Trim();
                 BindCharts();
                 BindCards();
                 BindCategoryCompanyGrid();
-                BindPoliciesGrid(0, searchText);
+                BindPoliciesGrid(0, txtSearch.Text.Trim());
             }
         }
 
@@ -49,7 +42,7 @@ namespace Dbord.View.Admin
                                  .Take(PageSize);
                     pagedDt = rows.Any() ? rows.CopyToDataTable() : dt.Clone();
                 }
-                else { pagedDt = dt.Clone(); }
+                else{pagedDt = dt.Clone();}
                 gvdashboard.DataSource = pagedDt;
                 gvdashboard.VirtualItemCount = totalRecords;
                 gvdashboard.PageSize = PageSize;
@@ -60,9 +53,7 @@ namespace Dbord.View.Admin
             catch (Exception ex)
             {
                 ShowError("Error loading data: " + ex.Message);
-            }
-        }
-
+            }}
         private DataTable GetPoliciesCached(string searchText)
         {
             string cacheKey = "AllPolicies_" + (string.IsNullOrEmpty(searchText) ? "All" : searchText);
@@ -160,15 +151,15 @@ namespace Dbord.View.Admin
 
         protected void btnSearch_dash_Click(object sender, EventArgs e)
         {
-            Session["SearchText"] = txtSearch.Text.Trim();
-            Response.Redirect("Dashboard.aspx");
+            gvdashboard.PageIndex = 0;
+            BindPoliciesGrid(0, txtSearch.Text.Trim());
         }
 
         protected void btnClearSearch_dash_Click(object sender, EventArgs e)
         {
             txtSearch.Text = string.Empty;
-            Session.Remove("SearchText");
-            Response.Redirect("Dashboard.aspx");
+            gvdashboard.PageIndex = 0;
+            BindPoliciesGrid(0, "");
         }
 
         #endregion
@@ -199,9 +190,7 @@ namespace Dbord.View.Admin
                 gvExport.RenderControl(hw);
                 Response.Output.Write(sw.ToString());
                 Response.Flush();
-
-                // Safe replacement for Response.End() to prevent ERR_CACHE_MISS
-                HttpContext.Current.ApplicationInstance.CompleteRequest();
+                Response.End();
             }
         }
 

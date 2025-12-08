@@ -29,21 +29,6 @@
         .table tr:hover {background-color: #ddd;}
         .btn-icon {margin-right: 5px;}
         .form-control {width: 100%; padding: 5px; box-sizing: border-box;}
-        table-responsive-mobile {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* Optional: improve readability on mobile */
-@media (max-width: 768px) {
-    .table th, .table td {
-        font-size: 12px;
-        padding: 6px;
-        white-space: nowrap;
-    }
-}
-
     </style>
 </asp:Content>
 
@@ -64,10 +49,9 @@
             <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" CssClass="btn btn-primary" />
             <asp:Button ID="btnClearSearch" runat="server" Text="Clear" OnClick="btnClearSearch_Click" CssClass="btn btn-secondary" />
         </div>
-         <div class="table-responsive-mobile">
+
         <asp:GridView ID="gvPolicies" runat="server" AutoGenerateColumns="False"
-             DataKeyNames="PolicyID,CompanyID,CategoryID" 
-             CssClass="table table-bordered table-striped"
+             DataKeyNames="PolicyID,CompanyID,CategoryID" CssClass="table"
             OnRowEditing="gvPolicies_RowEditing"
             OnRowCancelingEdit="gvPolicies_RowCancelingEdit"
             OnRowUpdating="gvPolicies_RowUpdating"
@@ -201,7 +185,6 @@
                 </asp:TemplateField>
             </Columns>
         </asp:GridView>
-             </div>
     </div>
         </div>
         </div>

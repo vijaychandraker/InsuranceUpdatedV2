@@ -80,17 +80,18 @@
         <td>&nbsp&nbsp To</td>
         <td><asp:TextBox ID="txtSearchStartDateTo"  ClientIDMode="Static" runat="server" TextMode="Date" 
     CssClass="form-control" AutoPostBack="true" OnTextChanged="SearchTextChanged" onchange="clearEndDates()" /></td>
-        <td>
-    <div style="visibility:hidden">
-    <asp:TextBox ID="txtSearchEndDateFrom" runat="server"   ClientIDMode="Static" TextMode="Date" onchange="clearStartDates()" 
-        AutoPostBack="true" OnTextChanged="SearchTextChanged" />
-    <asp:TextBox ID="txtSearchEndDateTo" runat="server"  ClientIDMode="Static" TextMode="Date"  onchange="clearStartDates()"
-     AutoPostBack="true" OnTextChanged="SearchTextChanged" />
-</div>
-        </td>
+        <td>&nbsp&nbsp&nbsp or &nbsp&nbsp&nbsp</td>
+           <td> Filter by End Insurance</td>
+        <td>&nbsp&nbsp From</td>
+            <td><asp:TextBox ID="txtSearchEndDateFrom" runat="server"  ClientIDMode="Static" TextMode="Date" onchange="clearStartDates()" 
+        CssClass="form-control" AutoPostBack="true" OnTextChanged="SearchTextChanged" /></td>
+         <td>&nbsp&nbsp To</td>
+            <td><asp:TextBox ID="txtSearchEndDateTo" runat="server"  ClientIDMode="Static" TextMode="Date"  onchange="clearStartDates()"
+    CssClass="form-control" AutoPostBack="true" OnTextChanged="SearchTextChanged" /></td>
         </tr>
     </table>
-   
+        <br />
+
 
             <asp:ScriptManager ID="ScriptManager1" runat="server" />
       
