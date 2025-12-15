@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dbord\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|D:\\Dbord\\dbord\\view\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\showdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\showdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\newcompany.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\newcompany.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\showdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\showdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\newcompany.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\newcompany.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|D:\\Dbord\\dbord\\view\\user\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\user\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\user\\user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\user\\user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\newcategory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\newcategory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\admin\\newcategory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\newcategory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\user\\report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\user\\report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|D:\\Dbord\\dbord\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|d:\\dbord\\dbord\\view\\user\\report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\user\\report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|D:\\Dbord\\dbord\\view\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03AFFCFC-3BE7-42AC-8DE0-DE5DF749AB3E}|Dbord\\Dbord.csproj|solutionrelative:dbord\\view\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "showdata.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\showdata.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\showdata.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\showdata.aspx",
+              "RelativeToolTip": "Dbord\\View\\Admin\\showdata.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T09:45:12.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\User\\User.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\User\\User.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\User\\User.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\User\\User.aspx.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:28:32.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewCompany.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\NewCompany.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\NewCompany.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\NewCompany.aspx",
+              "RelativeToolTip": "Dbord\\View\\Admin\\NewCompany.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T08:07:04.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\Site1.Master",
+              "RelativeDocumentMoniker": "Dbord\\Site1.Master",
+              "ToolTip": "D:\\Dbord\\Dbord\\Site1.Master",
+              "RelativeToolTip": "Dbord\\Site1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T07:23:34.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "report.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\User\\report.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\User\\report.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\User\\report.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\User\\report.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:48:24.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "report.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\User\\report.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\User\\report.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\User\\report.aspx",
+              "RelativeToolTip": "Dbord\\View\\User\\report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T06:48:22.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "newcategory.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\newcategory.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\newcategory.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\newcategory.aspx",
+              "RelativeToolTip": "Dbord\\View\\Admin\\newcategory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T05:52:55.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\Web.config",
+              "RelativeDocumentMoniker": "Dbord\\Web.config",
+              "ToolTip": "D:\\Dbord\\Dbord\\Web.config",
+              "RelativeToolTip": "Dbord\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-15T08:00:29.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\Dashboard.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\Dashboard.aspx",
+              "RelativeToolTip": "Dbord\\View\\Admin\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-13T06:34:00.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "showdata.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\showdata.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\showdata.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\showdata.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\Admin\\showdata.aspx.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAgwO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:47:42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "newcategory.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\newcategory.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\newcategory.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\newcategory.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\Admin\\newcategory.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwF4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:50:16.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.aspx",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\User\\User.aspx",
+              "RelativeDocumentMoniker": "Dbord\\View\\User\\User.aspx",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\User\\User.aspx",
+              "RelativeToolTip": "Dbord\\View\\User\\User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-13T06:07:53.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewCompany.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\NewCompany.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\NewCompany.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\NewCompany.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\Admin\\NewCompany.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:07:44.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\View\\Admin\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "Dbord\\View\\Admin\\Dashboard.aspx.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\View\\Admin\\Dashboard.aspx.cs",
+              "RelativeToolTip": "Dbord\\View\\Admin\\Dashboard.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAKYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:12:42.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site1.Master.cs",
+              "DocumentMoniker": "D:\\Dbord\\Dbord\\Site1.Master.cs",
+              "RelativeDocumentMoniker": "Dbord\\Site1.Master.cs",
+              "ToolTip": "D:\\Dbord\\Dbord\\Site1.Master.cs",
+              "RelativeToolTip": "Dbord\\Site1.Master.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:30:34.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
